@@ -42,8 +42,8 @@ To get started with the Flappy Bird Clone, follow these steps:
 
 ## How to Play
 
-- Click or tap to make the bird jump.
-- Navigate through the pipes without hitting them.
+- Click or tap to make the bird jump. Space on keyboard works as well.
+- Navigate over the buildings without hitting them.
 - Try to achieve the highest score possible!
 
 ## Contributing
