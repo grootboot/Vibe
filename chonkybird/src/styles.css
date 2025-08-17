@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #70c5ce; /* Sky color */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: url('../assets/sprites/background.png') no-repeat center center;
+    background-size: cover;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "flappy-bird-clone",
+  "version": "1.0.0",
+  "description": "A clone of the popular Flappy Bird game.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "flappy-bird",
+    "game",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
