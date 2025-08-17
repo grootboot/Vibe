@@ -142,15 +142,20 @@ class Bird {
     update() {
         this.velocity += this.gravity;
         this.y += this.velocity;
-
-        if (this.y + this.height >= canvas.height) {
-            gameOver = true;
+    
+        // Prevent the bird from going above the canvas
+        if (this.y < -100) { // Allow the bird to go slightly above the canvas
+            this.y = -100;
+            this.velocity = 0;
         }
-        if (this.y < 0) {
-            this.y = 0;
+    
+        // Allow half of the bird to go off the bottom of the canvas
+        if (this.y + this.height / 1.6 > canvas.height) {
+            this.y = canvas.height - this.height / 1.6;
             this.velocity = 0;
         }
 
+    
         // Update animation frame
         this.frameCounter++;
         if (this.frameCounter >= this.frameDelay) {
