@@ -110,8 +110,8 @@ class Bird {
     constructor() {
         this.x = 50;
         this.y = canvas.height / 2;
-        this.width = 50; // Scaled width of the bird on the canvas
-        this.height = 50; // Scaled height of the bird on the canvas
+        this.width = 150; // Scaled width of the bird on the canvas
+        this.height = 150; // Scaled height of the bird on the canvas
         this.gravity = 0.3; // Reduced gravity
         this.lift = -15;
         this.velocity = 0;
@@ -120,9 +120,9 @@ class Bird {
         this.sprite = new Image();
         this.sprite.src = './assets/sprites/bird-sprite.png'; // Path to the sprite sheet
         this.frameIndex = 0; // Current frame index
-        this.frameCount = 4; // Total number of frames in the sprite sheet
-        this.frameWidth = 100; // Width of each frame in the sprite sheet
-        this.frameHeight = 100; // Height of each frame in the sprite sheet
+        this.frameCount = 5; // Total number of frames in the sprite sheet
+        this.frameWidth = 500; // Width of each frame in the sprite sheet
+        this.frameHeight = 500; // Height of each frame in the sprite sheet
         this.frameDelay = 5; // Delay between frames
         this.frameCounter = 0; // Counter to control animation speed
 
